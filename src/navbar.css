@@ -1,0 +1,30 @@
+#navbar {
+    display: flex;
+    align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+  height: 30px;
+}
+
+.navbar-links a {
+  margin-left: 10px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.navbar-links a.active-link {
+  font-weight: bold;
+  color: red;
+
+}
