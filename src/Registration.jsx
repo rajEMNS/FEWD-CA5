@@ -143,7 +143,7 @@ function Registration() {
 
         <div className="form-group">
           <button className="submit-button" type="submit">
-            Submit
+            Sign up
           </button>
         </div>
       </form>
